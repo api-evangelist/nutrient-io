@@ -3,11 +3,11 @@
   "feeds": [
     {
       "source": "https://www.nutrient.io/blog/",
-      "feed_url": "https://www.nutrient.io/blog/feed.atom",
-      "saved": 10,
-      "title": "Inside Nutrient"
+      "feed_url": "https://www.nutrient.io/blog/feed.xml",
+      "title": "Inside Nutrient",
+      "saved": 5
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-05-03T23:32:51Z"
+  "post_count": 15,
+  "fetched": "2026-05-09T20:17:51Z"
 }
