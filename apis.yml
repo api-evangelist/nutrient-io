@@ -111,6 +111,12 @@ common:
     url: https://www.nutrient.io/legal/terms-of-service/
   - type: Privacy Policy
     url: https://www.nutrient.io/legal/privacy/
+  - type: Integrations
+    url: https://www.nutrient.io/partners/
+integrations:
+  - name: Nutrient
+  - name: Cloud
+  - name: Workflow
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
