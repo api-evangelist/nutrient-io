@@ -37,7 +37,7 @@ apis:
         url: https://www.nutrient.io/api/viewer-api/
       - type: Reference
         url: https://www.nutrient.io/api/reference/public/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://www.nutrient.io/guides/dws-viewer-api/
   - aid: nutrient-io:processor-api
     name: Nutrient Processor API
@@ -55,7 +55,7 @@ apis:
         url: https://www.nutrient.io/api/processor-api/
       - type: Reference
         url: https://www.nutrient.io/api/reference/public/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://www.nutrient.io/guides/dws-processor/getting-started/
   - aid: nutrient-io:accessibility-api
     name: Nutrient Accessibility API
@@ -93,23 +93,23 @@ common:
     url: https://www.nutrient.io/api/
   - type: Reference
     url: https://www.nutrient.io/api/reference/public/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://www.nutrient.io/guides/dws-processor/getting-started/
   - type: Pricing
     url: https://www.nutrient.io/pricing/
   - type: Blog
     url: https://www.nutrient.io/blog/
-  - type: Sign Up
+  - type: SignUp
     url: https://dashboard.nutrient.io/sign_up
   - type: Login
     url: https://dashboard.nutrient.io/sign_in
   - type: Support
     url: https://www.nutrient.io/support/
-  - type: Status
+  - type: StatusPage
     url: https://status.nutrient.io/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.nutrient.io/legal/terms-of-service/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.nutrient.io/legal/privacy/
   - type: Integrations
     url: https://www.nutrient.io/partners/
