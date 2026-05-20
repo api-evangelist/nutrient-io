@@ -87,6 +87,10 @@ apis:
       - type: Documentation
         url: https://www.nutrient.io/api/ai/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/pspdfkit
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nutrient-sdk
   - type: Website
     url: https://www.nutrient.io
   - type: Documentation
