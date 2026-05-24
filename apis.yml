@@ -117,6 +117,8 @@ common:
     url: https://www.nutrient.io/legal/privacy/
   - type: Integrations
     url: https://www.nutrient.io/partners/
+  - type: LLMsTxt
+    url: https://www.nutrient.io/llms.txt
 integrations:
   - name: Nutrient
   - name: Cloud
