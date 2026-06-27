@@ -2,17 +2,17 @@
   "repo": "nutrient-io",
   "feeds": [
     {
-      "source": "https://www.nutrient.io/blog/feed.xml",
-      "feed_url": "https://www.nutrient.io/blog/feed.xml",
+      "source": "https://www.nutrient.io/blog/",
+      "feed_url": "https://www.nutrient.io/blog/feed.atom",
       "title": "",
-      "saved": 5,
-      "method": "feed"
+      "saved": 4,
+      "method": "discovered"
     },
     {
       "source": "https://www.nutrient.io/pricing/",
       "error": "HTTPError"
     }
   ],
-  "post_count": 72,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 85,
+  "fetched": "2026-06-27T12:03:07Z"
 }

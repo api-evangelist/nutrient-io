@@ -103,7 +103,7 @@ common:
     url: https://www.nutrient.io/pricing/
   - type: Blog
     url: https://www.nutrient.io/blog/
-  - type: SignUp
+  - type: Signup
     url: https://dashboard.nutrient.io/sign_up
   - type: Login
     url: https://dashboard.nutrient.io/sign_in
@@ -117,7 +117,7 @@ common:
     url: https://www.nutrient.io/legal/privacy/
   - type: Integrations
     url: https://www.nutrient.io/partners/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://www.nutrient.io/llms.txt
 integrations:
   - name: Nutrient
