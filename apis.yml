@@ -87,6 +87,10 @@ apis:
       - type: Documentation
         url: https://www.nutrient.io/api/ai/
 common:
+  - type: TrustCenter
+    url: security/nutrient-io-trust-center.yml
+  - type: DomainSecurity
+    url: security/nutrient-io-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/pspdfkit
   - type: LinkedIn
