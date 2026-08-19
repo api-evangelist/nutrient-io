@@ -1,0 +1,141 @@
+# Nutrient — The deterministic document platform
+
+> SDKs, cloud APIs, and workflow agents for document work that can't run on a guess. Nutrient turns messy, high-stakes documents into structured, auditable data, and powers high-fidelity viewing, editing, generation, conversion, OCR, redaction, and eSignatures across web, mobile, and server. Deterministic by design: same output every run, confidence scores, and clear exceptions where AI is involved. Deploy in the cloud, self-hosted, or air-gapped. Use any AI model, your own, or none.
+
+## How to navigate this site
+
+- **Per-SDK guides indexes** live at `/guides/<sdk>/llms.txt` — each lists the topic indexes available for that SDK.
+- **Per-SDK API references** live at `/api/<sdk>/llms.txt` — same shape, for the SDK’s API surface.
+- Each per-SDK index points at **per-topic sub-indexes** named `/guides/<sdk>/llms-<topic>.txt` (and the matching `/api/<sdk>/llms-<topic>.txt`). Available topics vary per SDK — fetch the per-SDK index to see what each SDK covers. Topic URLs that aren’t listed in a per-SDK index do not resolve (404), so the per-SDK index is the authoritative signal of available topics for that SDK.
+- For **bulk content ingestion**, see [/llms-full.txt](/llms-full.txt).
+
+## Document AI and agent surfaces
+
+- [Document AI overview](/document-ai/) — The map of Nutrient’s AI products: extract, govern, and review document data on deterministic infrastructure.
+- [Data Extraction API](/api/data-extraction-api/) — Turn PDFs, scans, and images into structured JSON, with confidence scores and clear exceptions where AI is involved. No-signup playground on the page; free tier is 5,000 credits per month, no credit card.
+- [Data Extraction guides](/guides/dws-data-extraction/llms.txt) — Guides index for the Data Extraction API.
+- [AI governance](/document-ai/governance/) — How extraction and agent workflows stay auditable: what is deterministic, what is AI, and how exceptions route to humans.
+- [MCP Server](/api/mcp-server-pdf-automation-llm/) — Connect coding agents and assistants to Nutrient document APIs over the Model Context Protocol.
+- [Claude Cowork PDF editor](/claude-desktop/) — Free, installable PDF editor for Claude Cowork: view, annotate, fill, and redact PDFs directly in chat while files stay local.
+- [PDF to Markdown skill](/ai/skills/pdf-to-markdown/) — CLI and agent skill that converts PDFs into agent-ready Markdown.
+- [Make PDF skill](/ai/skills/make-pdf/) — Agent skill for generating finished PDFs from Markdown or HTML with PDF/UA and PDF/A verification.
+- [Remediate PDF skill](/ai/skills/remediate-pdf/) — Agent skill that auto-tags existing PDFs with PDF/UA semantic structure.
+- [Document AI models](/ai/models/) — Nutrient document models with links to model cards, demos, benchmarks, and leaderboards.
+- [AI Assistant](/sdk/ai-assistant/) — Embed document chat, summarization, translation, and redaction in your app, with any model provider.
+- [Workflow AI agents](/workflow-automation/ai-agents/) — Pre-built agents for approvals, data extraction, form building, and reporting.
+- [Enterprise document agents](/ai/agents/) — Early access: governed document agents for enterprise workflows.
+
+## Open source & installable
+
+- [PDF-to-Markdown CLI](https://github.com/PSPDFKit/pdf-to-markdown) — Open-source CLI for converting PDFs into structured Markdown for agents and pipelines.
+- [Claude Cowork editor connector](https://github.com/PSPDFKit/nutrient-pdf-editor-mcp) — MIT-licensed connector for the Nutrient PDF editor in Claude Cowork.
+- [DWS MCP server](https://github.com/PSPDFKit/nutrient-dws-mcp-server) — MCP server for connecting agents to Nutrient DWS cloud APIs.
+- [Document Engine MCP server](https://github.com/PSPDFKit/nutrient-document-engine-mcp-server) — MCP server for connecting agents to self-hosted Document Engine.
+- [Nutrient document models](https://huggingface.co/nutrientdocs) — Model cards, demos, benchmarks, and datasets for Nutrient document models.
+
+## Cloud APIs (DWS)
+
+- [Cloud API overview](/api/) — Document APIs for agents and humans: extract, convert, generate, redact, sign, and view. Every API has a free tier, no credit card required.
+- [Data Extraction API](/api/data-extraction-api/) — Structured data from documents (see Document AI section above). [Pricing](/api/pricing/data-extraction-api/)
+- [DWS Processor guides](/guides/dws-processor/llms.txt) — Convert, merge, OCR, watermark, and generate documents. [Product](/api/processor-api/) · [Pricing](/api/pricing/processor-api/) · [Getting started](/guides/dws-processor/getting-started.md) · [Postman](/guides/dws-processor/getting-started/postman-collection.md)
+- [DWS Viewer guides](/guides/dws-viewer/llms.txt) — Cloud document viewing API. [Product](/api/viewer-api/) · [Pricing](/api/pricing/viewer-api/)
+- [DWS Accessibility guides](/guides/dws-accessibility/llms.txt) — PDF/UA auto-tagging and validation API. [Product](/api/accessibility-api/) · [Pricing](/api/pricing/accessibility-api/) · [Solution hub](/solutions/pdf-accessibility/)
+- [API pricing](/api/pricing/) — Plans and free tiers for all cloud APIs.
+
+## SDK families
+
+- [Web SDK guides](/guides/web/llms.txt) · [Web SDK API](/api/web/llms.txt) — JavaScript / WASM PDF SDK (highest-priority surface).
+- [iOS SDK guides](/guides/ios/llms.txt) · [iOS SDK API](/api/ios/llms.txt) — Swift / Objective-C mobile SDK.
+- [Android SDK guides](/guides/android/llms.txt) · [Android SDK API](/api/android/llms.txt) — Kotlin / Java mobile SDK.
+- [React Native guides](/guides/react-native/llms.txt) · [React Native API](/api/react-native/llms.txt) — Cross-platform mobile SDK.
+- [Flutter guides](/guides/flutter/llms.txt) — Cross-platform mobile SDK.
+- [.NET MAUI guides](/guides/maui/llms.txt) · [.NET MAUI API](/api/maui/llms.txt) — Cross-platform .NET SDK.
+- [.NET (GdPicture) guides](/guides/dotnet/llms.txt) · [GdPicture API](/api/gdpicture/llms.txt) — Server-side document toolkit; [DocuVieware](/api/docuvieware/llms.txt) is the HTML5 viewer that pairs with it.
+- [Java SDK guides](/guides/java/llms.txt) · [Java SDK API](/api/java-sdk/llms.txt) — Server-side Java SDK.
+- [Node.js guides](/guides/nodejs/llms.txt) — Node.js integration.
+- [Document Engine guides](/guides/document-engine/llms.txt) — Self-hosted PDF processing server.
+- [DWS Data Extraction guides](/guides/dws-data-extraction/llms.txt) — Cloud data extraction API.
+- [DWS Processor guides](/guides/dws-processor/llms.txt) — Cloud document processing API.
+- [DWS Viewer guides](/guides/dws-viewer/llms.txt) — Cloud document viewing API.
+- [DWS Accessibility guides](/guides/dws-accessibility/llms.txt) — Cloud PDF accessibility API.
+- [AI Assistant guides](/guides/ai-assistant/llms.txt) · [AI Assistant API](/api/ai-assistant/llms.txt) — Chat, summarize, translate, redact inside the viewer.
+- [Document Authoring guides](/guides/document-authoring/llms.txt) · [Document Authoring API](/api/document-authoring/llms.txt) — WYSIWYG DOCX editor with PDF-fidelity export.
+- [AI document processing guides](/guides/ai-document-processing/llms.txt) · [XtractFlow API](/api/xtractflow/llms.txt) — Intelligent document processing.
+- [Nutrient blog](/blog/llms.txt) — 1,900+ articles on document technology.
+
+## Cross-cutting pages
+
+- [Web SDK overview](/sdk/web/) — Standalone, client-side PDF viewer/editor with annotations, forms, redaction, and more.
+- [Document AI overview](/document-ai/) — AI product map: extraction, governance, review.
+
+## Contact
+
+- Contact Sales: https://www.nutrient.io/contact-sales/ — agent instructions (field schema, submission channels): https://www.nutrient.io/contact-sales.md
+- Email: support@nutrient.io
+- Security: https://www.nutrient.io/security/
+- Partners: https://www.nutrient.io/partners/
+- Customers/Stories: https://www.nutrient.io/blog/categories/customer-stories/
+
+## Optional
+
+Use these links to access deep-dive indexes for platform-specific guides, API reference, and blog content.
+
+### SDKs
+
+- [Web SDK](https://www.nutrient.io/guides/web/llms.txt) — JavaScript/WASM PDF SDK
+- [.NET SDK](https://www.nutrient.io/guides/dotnet/llms.txt) — Server-side document processing
+- [iOS SDK](https://www.nutrient.io/guides/ios/llms.txt) — Swift/Objective-C mobile SDK
+- [Android SDK](https://www.nutrient.io/guides/android/llms.txt) — Kotlin/Java mobile SDK
+- [Java SDK](https://www.nutrient.io/guides/java/llms.txt) — Server-side Java SDK
+- [Node.js](https://www.nutrient.io/guides/nodejs/llms.txt) — Node.js integration
+- [Flutter](https://www.nutrient.io/guides/flutter/llms.txt) — Cross-platform mobile SDK
+- [React Native](https://www.nutrient.io/guides/react-native/llms.txt) — Cross-platform mobile SDK
+- [.NET MAUI](https://www.nutrient.io/guides/maui/llms.txt) — Cross-platform .NET SDK
+
+### Server and Cloud
+
+- [Document Engine](https://www.nutrient.io/guides/document-engine/llms.txt) — Self-hosted PDF processing server
+- [DWS Data Extraction](https://www.nutrient.io/guides/dws-data-extraction/llms.txt) — Cloud data extraction API
+  - Product overview: [Data Extraction API](/api/data-extraction-api/)
+  - Pricing: [Data Extraction API pricing](/api/pricing/data-extraction-api/)
+- [DWS Processor](https://www.nutrient.io/guides/dws-processor/llms.txt) — Cloud document processing API
+  - Product overview: [Processor API](/api/processor-api/)
+  - Pricing: [Processor API pricing](/api/pricing/processor-api/)
+  - Getting started: [DWS Processor getting started](/guides/dws-processor/getting-started.md)
+  - Postman: [Postman collection](/guides/dws-processor/getting-started/postman-collection.md)
+- [DWS Viewer](https://www.nutrient.io/guides/dws-viewer/llms.txt) — Cloud document viewing API
+  - Product overview: [Viewer API](/api/viewer-api/)
+  - Pricing: [Viewer API pricing](/api/pricing/viewer-api/)
+  - Guides: [DWS Viewer guides](/guides/dws-viewer.md)
+- [DWS Accessibility](https://www.nutrient.io/guides/dws-accessibility/llms.txt) — Cloud PDF accessibility API
+  - Product overview: [Accessibility API](/api/accessibility-api/)
+  - Pricing: [Accessibility API pricing](/api/pricing/accessibility-api/)
+  - Guides: [DWS Accessibility guides](/guides/dws-accessibility.md)
+  - Solution hub: [PDF accessibility hub](/solutions/pdf-accessibility/)
+
+### AI features
+
+- [Document AI overview](https://www.nutrient.io/document-ai/) — Extraction, governance, and review surfaces
+- [AI document processing](https://www.nutrient.io/guides/ai-document-processing/llms.txt) — Intelligent document extraction
+- [AI Assistant](https://www.nutrient.io/guides/ai-assistant/llms.txt) — AI-powered document assistant
+- [Document Authoring](https://www.nutrient.io/guides/document-authoring/llms.txt) — Document creation and editing
+- [MCP Server](https://www.nutrient.io/api/mcp-server-pdf-automation-llm/) — Model Context Protocol server for document APIs
+- [PDF to Markdown skill](https://www.nutrient.io/ai/skills/pdf-to-markdown/) — CLI and agent skill for agent-ready Markdown
+
+### API reference
+
+- [Web SDK API](https://www.nutrient.io/api/web/llms.txt) — JavaScript/TypeScript API reference
+- [iOS SDK API](https://www.nutrient.io/api/ios/llms.txt) — Swift/Objective-C API reference
+- [Android SDK API](https://www.nutrient.io/api/android/llms.txt) — Kotlin/Java API reference
+- [Java SDK API](https://www.nutrient.io/api/java-sdk/llms.txt) — Server-side Java API reference
+- [React Native API](https://www.nutrient.io/api/react-native/llms.txt) — Cross-platform mobile API reference
+- [.NET MAUI API](https://www.nutrient.io/api/maui/llms.txt) — Cross-platform .NET API reference
+- [GdPicture.NET API](https://www.nutrient.io/api/gdpicture/llms.txt) — .NET document processing API reference
+- [DocuVieware API](https://www.nutrient.io/api/docuvieware/llms.txt) — HTML5 viewer API reference
+- [AI Assistant API](https://www.nutrient.io/api/ai-assistant/llms.txt) — AI-powered document assistant API reference
+- [Document Authoring API](https://www.nutrient.io/api/document-authoring/llms.txt) — Document editor API reference
+- [XtractFlow API](https://www.nutrient.io/api/xtractflow/llms.txt) — AI document processing API reference
+
+### Blog
+
+- [Nutrient blog](https://www.nutrient.io/blog/llms.txt) — 1,900+ articles on document technology, SDKs, and workflow automation
