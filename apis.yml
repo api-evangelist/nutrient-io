@@ -25,6 +25,13 @@ tags:
   - Documents
   - PDF
   - Document Processing
+  - E-Signature
+  - Accessibility
+  - OCR
+tags_raw:
+  - Documents
+  - PDF
+  - Document Processing
   - eSignature
   - Accessibility
   - OCR
@@ -92,6 +99,10 @@ apis:
       analysis built on top of the Nutrient document platform.
     humanURL: https://www.nutrient.io/api/ai/
     tags:
+      - Artificial Intelligence
+      - Extraction
+      - Classification
+    tags_raw:
       - AI
       - Extraction
       - Classification
