@@ -5,7 +5,7 @@
       "source": "https://www.nutrient.io/blog/feed.atom",
       "feed_url": "https://www.nutrient.io/blog/feed.atom",
       "title": "",
-      "saved": 7,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -13,6 +13,6 @@
       "error": "HTTPError"
     }
   ],
-  "post_count": 123,
-  "fetched": "2026-08-15T12:11:08Z"
+  "post_count": 129,
+  "fetched": "2026-08-22T20:20:02Z"
 }
