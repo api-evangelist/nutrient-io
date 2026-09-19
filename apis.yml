@@ -59,6 +59,11 @@ apis:
     humanURL: https://www.nutrient.io/api/viewer-api/
     tags:
       - Viewer
+      - Annotation
+      - Forms
+      - Signatures
+    tags_raw:
+      - Viewer
       - Annotations
       - Forms
       - Signatures
