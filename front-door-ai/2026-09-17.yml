@@ -1,0 +1,36 @@
+# Front Door AI Index — nutrient-io — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nutrient-io
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.nutrient.io
+  final_host: www.nutrient.io
+  ownership: own
+  owner: nutrient-io
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 53
+  host_score: 53
+  density: 10.47
+  words: 5061
+  tiers:
+    agentic: 18
+    core: 35
+    model: 0
+  ambiguous: 35
+  top_terms:
+    AI: 34
+    agent: 15
+    automation: 11
+    intelligence: 7
+    MCP: 6
+    AI assistant: 5
+    AI agent: 2
+    agentic: 2
+    prompts: 2
+    smart: 2
+    embedding: 1
+    large language model: 1
