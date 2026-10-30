@@ -1,4 +1,4 @@
-# Nutrient.io (nutrient-io)
+# Nutrient.io
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,89 +66,112 @@
 
 Nutrient (formerly PSPDFKit) provides a powerful and secure document processing platform via Document Web Services (DWS). Fast and easy integration enables instant generation, conversion, modification, and digital signing of PDF documents, plus accessibility tagging and AI-powered document workflows.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/nutrient-io/refs/heads/main/apis.yml)
+**Areas:** Documents · PDF · Document Processing · E-Signature · Accessibility · OCR
 
-## Scope
+## Nutrient.io on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Nutrient.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nutrient-io/](https://apis.io/providers/nutrient-io/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (4)
 
- - Documents, PDF, Document Processing, eSignature, Accessibility, OCR
+- [Nutrient Viewer API](https://apis.io/apis/nutrient-io/viewer-api/) — Deliver rich document interactions directly in the browser including PDF rendering, annotation, form filling, and signature collection.
+- [Nutrient Processor API](https://apis.io/apis/nutrient-io/processor-api/) — Headless cloud document workflow API for generation, conversion, extraction, OCR, and automation across PDFs and Office documents.
+- [Nutrient Accessibility API](https://apis.io/apis/nutrient-io/accessibility-api/) — Automate PDF accessibility through cloud-based auto-tagging and validation to support compliance with WCAG and PDF/UA standards.
+- [Nutrient AI API](https://apis.io/apis/nutrient-io/ai-api/) — AI-powered document workflows including extraction, classification, and analysis built on top of the Nutrient document platform.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-02-08
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### Nutrient Viewer API
-Deliver rich document interactions directly in the browser including PDF rendering, annotation, form filling, and signature collection.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://www.nutrient.io/api/viewer-api/](https://www.nutrient.io/api/viewer-api/)
+- [Nutrient Io Domain Security](https://apis.io/security/nutrient-io/nutrient-io-domain-security/)
+- [Nutrient Io Trust Center](https://apis.io/security/nutrient-io/nutrient-io-trust-center/)
 
-#### Tags:
- - Viewer, Annotations, Forms, Signatures
+#### Plans and pricing (1)
 
-#### Properties
-- [Documentation](https://www.nutrient.io/api/viewer-api/)
-- [Reference](https://www.nutrient.io/api/reference/public/)
-- [Getting Started](https://www.nutrient.io/guides/dws-viewer-api/)
+Published plans, tiers and prices.
 
-### Nutrient Processor API
-Headless cloud document workflow API for generation, conversion, extraction, OCR, and automation across PDFs and Office documents.
+- [Nutrient Io Plans Pricing](https://apis.io/plans/nutrient-io/nutrient-io-plans-pricing/)
 
-**Human URL:** [https://www.nutrient.io/api/processor-api/](https://www.nutrient.io/api/processor-api/)
+#### Rate limits (1)
 
-#### Tags:
- - Processing, Conversion, OCR, Extraction
+Published request limits.
 
-#### Properties
-- [Documentation](https://www.nutrient.io/api/processor-api/)
-- [Reference](https://www.nutrient.io/api/reference/public/)
-- [Getting Started](https://www.nutrient.io/guides/dws-processor/getting-started/)
+- [Nutrient Io Rate Limits](https://apis.io/rate-limits/nutrient-io/nutrient-io-rate-limits/)
 
-### Nutrient Accessibility API
-Automate PDF accessibility through cloud-based auto-tagging and validation to support compliance with WCAG and PDF/UA standards.
+#### FinOps (1)
 
-**Human URL:** [https://www.nutrient.io/api/accessibility-api/](https://www.nutrient.io/api/accessibility-api/)
+What the API costs to run, by operation.
 
-#### Tags:
- - Accessibility, PDF/UA, WCAG, Tagging
+- [Nutrient Io Finops](https://apis.io/finops/nutrient-io/nutrient-io-finops/)
 
-#### Properties
-- [Documentation](https://www.nutrient.io/api/accessibility-api/)
-- [Reference](https://www.nutrient.io/api/reference/public/)
+## Where to find this API
 
-### Nutrient AI API
-AI-powered document workflows including extraction, classification, and analysis built on top of the Nutrient document platform.
-
-**Human URL:** [https://www.nutrient.io/api/ai/](https://www.nutrient.io/api/ai/)
-
-#### Tags:
- - AI, Extraction, Classification
-
-#### Properties
-- [Documentation](https://www.nutrient.io/api/ai/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.nutrient.io)
 - [Documentation](https://www.nutrient.io/api/)
-- [Reference](https://www.nutrient.io/api/reference/public/)
-- [Getting Started](https://www.nutrient.io/guides/dws-processor/getting-started/)
+- [Getting started](https://www.nutrient.io/guides/dws-processor/getting-started/)
 - [Pricing](https://www.nutrient.io/pricing/)
-- [Blog](https://www.nutrient.io/blog/)
-- [Sign Up](https://dashboard.nutrient.io/sign_up)
-- [Login](https://dashboard.nutrient.io/sign_in)
 - [Support](https://www.nutrient.io/support/)
+- [Blog](https://www.nutrient.io/blog/)
+- [Terms of service](https://www.nutrient.io/legal/terms-of-service/)
+- [Privacy policy](https://www.nutrient.io/legal/privacy/)
+- [GitHub](https://github.com/pspdfkit)
 - [Status](https://status.nutrient.io/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 23.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 32.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nutrient-io/](https://apis.io/providers/nutrient-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nutrient.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nutrient-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
